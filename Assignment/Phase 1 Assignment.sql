@@ -24,7 +24,7 @@ INSERT into student VALUES (2,"Ronaldo",22,7686266887,811719104058,2019);
 INSERT into student VALUES (3,"Rakesh",22,8681264484,811719104118,2019);
 INSERT into student VALUES (4,"Vimal",26,646269818,811719104099,2019);
 INSERT into student VALUES (5,"Ram balaji",23,86288568488,811719104100,2021);
-INSERT into student VALUES (6,"Shree vishnu",22,6518465168,811719104001,2021);
+INSERT into student VALUES (6,"Shree vishnu",29,6518465168,811719104001,2021);
 INSERT into student VALUES (7,"Nithya",21,86584616,811719104008,2023);
 INSERT into student VALUES (8,"Saravana",24,6468156846,811719104006,2020);
 INSERT into student VALUES (9,"Somasundaram S",22,6846664889,811719104009,2018);
@@ -55,7 +55,7 @@ SELECT * from teacher WHERE department="CSE";
 # 6.Write a query to edit at least 3 records of students
 
 UPDATE student set mobile_no = 8975462135 WHERE id = 1;
-UPDATE student set batch = 2020 WHERE name = 'Ronaldo';
+UPDATE student set batch = 2020 WHERE name = 'Rakesh';
 UPDATE student set age = 20 WHERE name = 'Shree vishnu';
 
 #7. Write a query to delete 2 records from teachers table.
